@@ -1,0 +1,12 @@
+#pipeline kb chalega
+trigger: none
+
+#pipeline kaha chalega pool
+pool: linux
+
+#pipeline me kya chalega
+
+steps:
+  - script: 
+      echo "my first pipeline"
+    displayName: echo run ho rahi h
